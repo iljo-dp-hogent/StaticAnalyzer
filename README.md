@@ -1,6 +1,7 @@
 # StaticAnalyzer
 # Requirements Gathering
 - Language Support: Java
+
 ## Analysis Types:
     Syntax analysis
     Semantic analysis
@@ -28,3 +29,17 @@ ANTLR: For custom parsing and lexer rules.
 JUnit: For unit testing.
 Picocli: For building the CLI.
 4. Implementation Plan
+
+To compile the code and run it, make sure you have you JAVA_HOME set in your path
+
+Then run
+```
+./gradlew build
+```
+and then
+```
+java -jar build/libs/StaticAnalyzer.jar analyze path/to/your/source/code -c path/to/config.properties
+```
+
+Currently I'm still fighting 1 mayor bug
+
