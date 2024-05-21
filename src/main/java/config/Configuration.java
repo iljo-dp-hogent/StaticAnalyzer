@@ -6,7 +6,7 @@ import java.util.Properties;
 
 public class Configuration {
 
-    private Properties properties;
+    private final Properties properties;
 
     private Configuration(Properties properties) {
         this.properties = properties;

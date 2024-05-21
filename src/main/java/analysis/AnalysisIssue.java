@@ -1,7 +1,7 @@
 package main.java.analysis;
 
 public class AnalysisIssue {
-    private String message;
+    private final String message;
 
     public AnalysisIssue(String message) {
         this.message = message;

@@ -2,12 +2,10 @@ package main.java.analysis;
 
 import com.github.javaparser.ast.CompilationUnit;
 import main.java.config.Configuration;
-import java.util.List;
-import java.util.ArrayList;
 
 public class Analyzer {
 
-    private Configuration config;
+    private final Configuration config;
 
     public Analyzer(Configuration config) {
         this.config = config;

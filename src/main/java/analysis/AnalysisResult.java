@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class AnalysisResult {
 
-    private List<AnalysisIssue> issues = new ArrayList<>();
+    private final List<AnalysisIssue> issues = new ArrayList<>();
 
     public void addIssue(AnalysisIssue issue) {
         issues.add(issue);
